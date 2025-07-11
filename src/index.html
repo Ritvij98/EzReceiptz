@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>EzReceiptz!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- https://electronjs.org/docs/tutorial
+						/security#csp-meta-tag -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+  </head>
+  <body>
+    <h4>
+      Hello there, pleae follow the below steps to extract data from the
+      receipts to the Google Spreadsheet.
+    </h4>
+
+    <section>
+      <p class="text">1. Upload the Receipt Files in PDF or PNG format</p>
+      <div id="drop-box">
+        <svg
+          class="box-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="43"
+          viewBox="0 0 50 43"
+        >
+          <path
+            d="M48.4 26.5c-.9 0-1.7.7-1.7 1.7v11.6h-43.3v-11.6c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v13.2c0 .9.7 1.7 1.7 1.7h46.7c.9 0 1.7-.7 1.7-1.7v-13.2c0-1-.7-1.7-1.7-1.7zm-24.5 6.1c.3.3.8.5 1.2.5.4 0 .9-.2 1.2-.5l10-11.6c.7-.7.7-1.7 0-2.4s-1.7-.7-2.4 0l-7.1 8.3v-25.3c0-.9-.7-1.7-1.7-1.7s-1.7.7-1.7 1.7v25.3l-7.1-8.3c-.7-.7-1.7-.7-2.4 0s-.7 1.7 0 2.4l10 11.6z"
+          ></path>
+	  </svg>
+        <label for="file" >
+          <strong class="file-choose" id="upload">Choose a file</strong><br/>or<br/>
+          <span class="box__dragndrop"> drag it here</span>.</label
+        >
+      </div>
+	  <p><strong id="fileCount"></strong> File(s) Uploaded</p>
+    </section>
+
+	<br/>
+
+    <section> 
+      <p class="text">2. Perform OCR</p>
+	  <button id="ocr" class="button-small">OCR</button>
+      <p><strong id="ocrProgress"></strong> Done</p>
+    </section>
+	
+	<br />
+    
+	<section>
+      <p class="text">3. Upload to Google Sheet</p>
+      <button id="upload-to-sheet" class="button-big">Upload Info</button>
+    </section>
+
+    <!-- Adding Individual Renderer Process JS File -->
+    <script src="index.js"></script>
+  </body>
+</html>

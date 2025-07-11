@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}   
+body{
+ background: linear-gradient(270deg, #1CB5E0 0%, #000851 100%);
+ color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-weight: 400;
+    margin: 2rem;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+
+#drop-box{
+    width: 100%;
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    height: 180px;
+    padding: 2rem;
+    font-size: 1.25rem;
+    background-color: #656565;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#drop-box label{
+    text-align: center;
+}
+.file-choose{
+    cursor: pointer;
+
+}
+/* .box.has-advanced-upload  */
+.box-icon {
+    width: 100%;
+    height: 60px;
+    fill: #92b0b3;
+    display: block;
+}
+.text{
+    font-size: 1.2rem;
+}
+.button-big{
+    width:100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#efefef;
+    color: black;
+}
+.button-big:hover{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.button-small{
+    width:100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#efefef;
+}
+.button-small:hover{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
