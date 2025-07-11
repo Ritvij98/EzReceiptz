@@ -73,7 +73,7 @@ Electron will open a window with the EzReceiptz interface.
 
 | Step | Image |
 |------|-------|
-| Application main window | ![Main window](<img width="1482" height="999" alt="image" src="https://github.com/user-attachments/assets/e95b0159-db96-4a57-b420-2b6c37bff213" />
+| Application main window | ![Main window](<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/bac60f80-7971-4f97-ba9e-007b73b56659" />
 ) |
 | Drag & drop receipts | ![Drag and drop](<img width="1558" height="472" alt="image" src="https://github.com/user-attachments/assets/f662f248-9b9c-4d1e-8b9c-77d3ba4d244d" />
 ) |
