@@ -1,4 +1,3 @@
-<img width="1887" height="262" alt="image" src="https://github.com/user-attachments/assets/11e640d1-0e40-4bff-86d0-248b66bfb15b" />
 # EzReceiptz
 
 EzReceiptz is a desktop application built with [Electron](https://electronjs.org/) that extracts data from receipt files using OCR and uploads the information to a Google Sheet. The interface lets you drag and drop PDF or PNG receipts, run OCR with Tesseract.js, and then send the recognized data directly to a spreadsheet.
