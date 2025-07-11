@@ -1,3 +1,4 @@
+<img width="1887" height="262" alt="image" src="https://github.com/user-attachments/assets/11e640d1-0e40-4bff-86d0-248b66bfb15b" />
 # EzReceiptz
 
 EzReceiptz is a desktop application built with [Electron](https://electronjs.org/) that extracts data from receipt files using OCR and uploads the information to a Google Sheet. The interface lets you drag and drop PDF or PNG receipts, run OCR with Tesseract.js, and then send the recognized data directly to a spreadsheet.
@@ -72,7 +73,11 @@ Electron will open a window with the EzReceiptz interface.
 
 | Step | Image |
 |------|-------|
-| Application main window | ![Main window](https://github.com/user-attachments/assets/e5804ccf-82bb-4d47-b1d0-04fe863cc00b) |
-| Drag & drop receipts | ![Drag and drop](https://github.com/user-attachments/assets/9fdabc39-dd8a-488a-86ea-6dea5d75562c) |
-| OCR progress | ![OCR progress](https://github.com/user-attachments/assets/74669214-db6d-4f4a-b50c-4cbd241a5e5c) |
-| Upload to Google Sheets | ![Upload](https://github.com/user-attachments/assets/eb7fd526-ec93-48c6-b085-6dd9f49949af) |
+| Application main window | ![Main window](<img width="1482" height="999" alt="image" src="https://github.com/user-attachments/assets/e95b0159-db96-4a57-b420-2b6c37bff213" />
+) |
+| Drag & drop receipts | ![Drag and drop](<img width="1558" height="472" alt="image" src="https://github.com/user-attachments/assets/f662f248-9b9c-4d1e-8b9c-77d3ba4d244d" />
+) |
+| OCR progress | ![OCR progress](<img width="1542" height="237" alt="image" src="https://github.com/user-attachments/assets/76afa3e0-b156-4eee-8f65-19250b8facaa" />
+) |
+| Upload to Google Sheets | ![Upload](<img width="1887" height="262" alt="image" src="https://github.com/user-attachments/assets/df725cb6-3682-47b8-a97e-8e9bfe0d2301" />
+) |
