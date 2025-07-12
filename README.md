@@ -72,11 +72,7 @@ Electron will open a window with the EzReceiptz interface.
 
 | Step | Image |
 |------|-------|
-| Application main window | ![Main window](<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/bac60f80-7971-4f97-ba9e-007b73b56659" />
-) |
-| Drag & drop receipts | ![Drag and drop](<img width="1558" height="472" alt="image" src="https://github.com/user-attachments/assets/f662f248-9b9c-4d1e-8b9c-77d3ba4d244d" />
-) |
-| OCR progress | ![OCR progress](<img width="1542" height="237" alt="image" src="https://github.com/user-attachments/assets/76afa3e0-b156-4eee-8f65-19250b8facaa" />
-) |
-| Upload to Google Sheets | ![Upload](<img width="1887" height="262" alt="image" src="https://github.com/user-attachments/assets/df725cb6-3682-47b8-a97e-8e9bfe0d2301" />
-) |
+| Application main window | <img src="https://github.com/user-attachments/assets/bac60f80-7971-4f97-ba9e-007b73b56659" width="600" alt="Application window" /> |
+| Drag & drop receipts | <img src="https://github.com/user-attachments/assets/f662f248-9b9c-4d1e-8b9c-77d3ba4d244d" width="600" alt="Drag and drop" /> |
+| OCR progress | <img src="https://github.com/user-attachments/assets/76afa3e0-b156-4eee-8f65-19250b8facaa" width="600" alt="OCR progress" /> |
+| Upload to Google Sheets | <img src="https://github.com/user-attachments/assets/df725cb6-3682-47b8-a97e-8e9bfe0d2301" width="600" alt="Upload to Sheets" /> |
